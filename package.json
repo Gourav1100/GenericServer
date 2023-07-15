@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for tictactoe",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js && node socket.js"
+  },
+  "author": "Gourav Bidhuri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express.js": "^1.0.0",
+    "http": "^0.0.1-security",
+    "jwt-decode": "^3.1.2",
+    "mongodb": "^4.13.0",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.6.1",
+    "supervisor": "^0.12.0",
+    "websocket": "^1.0.34"
+  }
+}
